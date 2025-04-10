@@ -1,0 +1,2 @@
+aarch64-none-linux-gnu-gcc -v 2>&1 | tee assignments/assignment2/cross-compile.txt
+aarch64-none-linux-gnu-gcc -print-sysroot >> assignments/assignment2/cross-compile.txt
